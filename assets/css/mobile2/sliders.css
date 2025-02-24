@@ -1,0 +1,238 @@
+.sliders-wrapper{
+    width: 100%;
+
+}
+.top-shegeft{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.col6{
+    width: 50%;
+    padding-right:20px;
+}
+.col6 img {
+    width: 306px;
+    height: 56px;
+}
+.col7{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zaman{
+    display: none;
+    padding-right: 200px;
+    font-family: 'Yekan Bakh';
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+.timer{
+    display: none;
+    font-family: 'Yekan Bakh';
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+.gradiant{
+    border-radius: 8px;
+    width: 100%;
+    height: 358px;
+    background-color: rgba(57, 57, 57, 0.078);
+    position: absolute;
+}
+.swiper-wrapper{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+  
+  .swiper-slide img {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.swiper-slide a img{
+    border-radius: 8px;
+    
+}
+
+div.sliders-wrapper>div.swiper>div.swiper-wrapper>div.swiper-slide::before{
+content: "۲۸%";
+color: white;
+border-radius: 0px 16px 16px 0px;
+background-color: #F16422;
+padding: 10px;
+position: absolute;
+Top: 20px;
+left: 0px;
+}
+
+div.sliders-wrapper>div.swiper>div.swiper-wrapper>div.swiper-slide::after{
+    content: "تعداد باقیمانده:۷ عدد";
+    color: white;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #F16422;
+    padding: 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 75px;
+    }
+.swiper-button-next{
+    position: absolute;
+    color: rgb(179, 179, 179) !important;
+    width: 20px  !important;
+    height: 20px !important;
+}
+.swiper-button-prev{
+    position: absolute;
+    color: rgb(179, 179, 179) !important;
+    width: 20px  !important;
+    height: 20px !important;
+}
+.price{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.last-price {
+    color: gray;
+    text-decoration: line-through;
+    font-family: "Yekan Bakh";
+    font-size: 14px;
+}
+.discription{
+    text-decoration: none;
+    color: gray;
+    font-family: "Yekan Bakh";
+    font-size: 14px;
+}
+.product-card-price{
+
+    color:#0AC275;
+    font-family: "Yekan Bakh";
+    font-size: 16px;
+}
+.a-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.a-container a{
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    font-family: "Yekan Bakh";
+    color: #0AC275;
+    font-size: 22px;
+    border-radius: 28px;
+    font-weight: 400;
+    background-color: white;
+    border: 0.5px solid gray ;
+    margin-bottom: 50px;
+    
+}
+.a-container a:hover{
+ border: 0.5px solid #0AC275 ;
+}
+
+.h-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.h-container h2{
+    font-family: "Yekan Bakh";
+    font-size: 26px;
+    font-weight: 400;
+}
+div.container-s2>div.swiper>div.swiper-wrapper>div.swiper-slide::before{
+    content: "۱۲%";
+    color: white;
+    border-radius: 0px 24px 24px 0px;
+    background-color: #F16422;
+    padding: 10px;
+    position: absolute;
+    Top: 20px;
+    left: 0px;
+    }
+    div.wr2>div.swiper>div.swiper-wrapper>div.swiper-slide::before{
+        content: "۱۲%";
+        color: white;
+        border-radius: 0px 24px 24px 0px;
+        background-color: #F16422;
+        padding: 10px;
+        position: absolute;
+        Top: 20px;
+        left: 0px;
+        }
+    div.container-s2>div.swiper>div.swiper-wrapper>div.swiper-slide::after{
+    width: 60%;
+    content:"تخفیف بیشتر در گردونه آف زمستون";
+    font-family: "Yekan Bakh";
+    font-size: 14px;
+    color: white;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #00BF6F;
+    padding: 10px;
+    position: absolute;
+    bottom: 70px;
+    right: 16%;
+    }
+    div.wr2>div.swiper>div.swiper-wrapper>div.swiper-slide::after{
+        width:60%;
+        content:"تخفیف بیشتر در گردونه آف زمستون";
+        font-family: "Yekan Bakh";
+        font-size: 14px;
+        color: white;
+        border-radius: 8px 8px 8px 8px;
+        background-color: #00BF6F;
+        padding: 10px;
+        position: absolute;
+        bottom: 70px;
+        left: 11%
+        }
+        div.last-section>.container-s2>div.swiper>div.swiper-wrapper>div.swiper-slide::after{
+            display: none;
+            }
+            div.last-section>.container-s2>div.swiper>div.swiper-wrapper>div.swiper-slide::before{
+                display: none;
+                }        
+.banner{
+    width: 100%;
+    height: 198px;
+    border-radius: 16px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.banner img{
+
+    border-radius: 16px;
+    width: 1420px;
+    height: 198px;
+    transition: 0.5s;
+}
+.banner img:hover{
+    border-radius: 16px;
+    transition: 0.5s;
+    transform-origin: center center;
+    transform: scale(1.1);
+}

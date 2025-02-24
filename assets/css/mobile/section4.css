@@ -1,0 +1,215 @@
+.s4 {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.s4-img>a img:hover {
+
+    transform-origin: center center;
+    transform: scale(1.05);
+    transition: linear 0.5s;
+}
+
+.s4-img {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 334px;
+    height: 254px;
+}
+
+.s4-img a img {
+    transition: linear 0.5s;
+    width: 334px;
+    height: 254px;
+    border-radius: 8px;
+}
+
+.illustrations {
+    
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+div.illustrations>.po {
+    width: 334px;
+    height: 270px;
+    /* background-image: url(../../photos/featurebg-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1;  */
+    background-size: 0.5;
+    
+}
+
+div.illustrations>.po:hover {
+    cursor: pointer;
+}
+
+.po{
+    position: relative;
+}
+.po>img{
+    object-fit: contain;
+    width: 334px;
+    height: 270px;
+    opacity: 0.2;
+}
+.po>img:hover{
+    opacity: 0.4;
+}
+.po a img {
+    opacity: 1 !important;
+    width: 100px;
+    height: 100px;
+    right: 115px;
+    position: absolute;
+
+}
+.po a h3{
+    font-family: "Yekan Bakh";
+    top: 110px;
+    right: 100px;
+    position: absolute;
+}
+.po a p{
+    font-family: "Yekan Bakh";
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    top: 150px;
+    right: 70px;
+}
+.cs {
+    width: 100%;
+    height: 334px;
+    background-color: #F9F9F9;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    /* align-items:center; */
+    justify-content: center;
+   
+
+}
+.cs .swiper{
+    height: 144px;
+    position: absolute;
+    top: 45px;
+}
+.cs .swiper .swiper-wrapper {
+    height: 144px;
+    display: flex;
+    align-items: center;
+
+}
+.cs .swiper .swiper-wrapper .swiper-slide{
+    width: 25%;
+    height: 33%;
+}
+.cs .swiper .swiper-wrapper .swiper-slide a img{
+    /* width: 143px;
+    height: 72px; */
+    object-fit: fill;
+}
+.cs h2{
+    position: absolute;
+    top: 20px;
+    right: 25%;
+    font-family: "Yekan Bakh";
+    font-size: 20px;
+
+}
+.cs>a{
+
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    font-family: "Yekan Bakh";
+    color: #0AC275;
+    font-size: 22px;
+    border-radius: 28px;
+    font-weight: 400;
+    background-color: white;
+    border: 0.5px solid gray ;
+    position: absolute;
+    right: 40%;
+    bottom: 40px;
+}
+.last_section{
+    width: 100%;
+}
+.newsletter {
+    margin: auto;
+    width: 95%;
+    height: 230px;
+    background-color: #f8f8f8;
+    background-image: url(../../photos/newsletter.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.newsletter h2{
+    font-family: "Yekan Bakh";
+}
+.newsletter p{
+    font-family: "Yekan Bakh";
+    
+}
+.email{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    border-radius: 50px 50px 0px 0px;
+    justify-content: space-around;
+    width: 60%;
+    height: 60px;
+    background-origin: 1px;
+    bottom: 0px;
+}
+.email input{
+    display:none ;
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: #f8f8f8;
+}
+.email input:focus{
+    outline: none;
+}
+.email button{
+    position: relative;
+    display: none;
+    font-family: "Yekan Bakh";
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+    width: 140px;
+    height: 52px;
+    background-color:#0AC275 ;
+    border: none;
+    border-radius: 10px;
+}
+.email button i{
+    position: absolute;
+    font-size: larger;
+}
+.email button:hover{
+    background-color:#009657 ;
+}

@@ -1,0 +1,78 @@
+.xwrap{
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.xcard{
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 40%;
+    position: relative;
+}
+.xcard a::before{
+    content: "33%";
+    color: white;
+    font-size: small;
+    border-radius: 20px 20px 20px 20px;
+    background: rgb(36,0,23);
+    background: linear-gradient(90deg, rgba(36,0,23,1) 0%, rgba(194,0,0,1) 0%, rgba(255,171,0,1) 100%);
+    padding: 10px;
+    position: absolute;
+    Top: 20px;
+    left: 10px;
+    z-index: 100;
+    
+    }
+    .xcard a::after{
+        content: "لورم ایپسوم متن ساختگی";
+        color: white;
+        font-size: small;
+        border-radius: 8px 8px 8px 8px;
+        background: rgb(36,0,23);
+        background: linear-gradient(90deg, rgba(36,0,23,1) 0%, rgba(194,0,0,1) 0%, rgba(255,171,0,1) 100%);
+        padding: 10px;
+        position: absolute;
+        bottom: 75px;
+        left: 28%;
+        z-index: 100;
+        
+        }
+
+.xcard a{
+    color: black;
+}
+.xcard a img{
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0px 5px 5px #575757);
+}
+.tozihat{
+    
+    display: flex;
+    flex-direction: column;
+}
+.tozihat del{
+    text-decoration: line-through;
+    color: #575757;
+}
+.tozihat span{
+    color: black;
+    font-family: "Yekan Bakh";
+}
+.tozihat del{
+    font-family: "Yekan Bakh";
+    text-decoration: line-through;
+    color: #575757;
+}
+.tozihat p{
+    font-family: "Yekan Bakh";
+}

@@ -1,0 +1,133 @@
+.outlet-h4 {
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+    font-family: "Yekan Bakh";
+}
+.filter{
+    display: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.filter .buttons button{
+    display: none;
+    font-family: "Yekan Bakh";
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: solid 0.2px rgb(204, 204, 204);
+}
+.filter .buttons button i{
+ margin: 10px;
+}
+.toggles{
+    display: none;
+    padding: 30px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.toggles a{
+    display: none;
+    text-decoration: none;
+    font-family: "Yekan Bakh";
+}
+.ywrapper{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    
+}
+.ycards{
+    
+    margin-top: 20px;
+    transition: all .5s ease;
+    border-radius: 8px;
+    width: 90%;
+    position: relative;
+}
+.ycards a img{
+    width: 100%;
+    height:inherit;
+    object-fit: cover;
+    border-radius: 8px;
+    border: solid 0.2px rgb(204, 204, 204);
+}
+.ycards a::before{
+    content: "82%";
+color: white;
+font-size: small;
+border-radius: 20px 20px 20px 20px;
+background: rgb(36,0,23);
+background: linear-gradient(90deg, rgba(36,0,23,1) 0%, rgba(194,0,0,1) 0%, rgba(255,171,0,1) 100%);
+padding: 10px;
+position: absolute;
+Top: 20px;
+left: 10px;
+z-index: 100;
+}
+.ycards a::after{
+    content: "تخفیف بیشتر در گردونه آف زمستون";
+   
+    font-family: "Yekan Bakh";
+    font-size: large;
+    color: white;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #42D57B;
+    padding: 10px;
+    position: absolute;
+    bottom: 80px;
+    left: 25%;
+    z-index: 100;
+    
+}
+.popper{
+    
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    background-color: white;
+    z-index: 200;
+    border: solid 0.2px rgb(204, 204, 204);
+    border-top: none;
+    border-radius: 8px;
+    opacity: 0;
+}
+.ycards a:hover .popper{
+    transition: all .5s ease;
+    height: 40%;
+    opacity: 1;
+    bottom: 50px;
+}
+.child-popper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ur23{
+    width: 25%;
+    height: 50%;
+    background-color: black;
+        border-radius: 8px;
+}
+.ur23 img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: contain;
+}

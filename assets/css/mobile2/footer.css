@@ -1,0 +1,250 @@
+.footer{
+    width: 100%;
+    height: 500px;
+}
+.top-footer{
+    font-family: "Yekan Bakh";
+    width: 100%;
+    height: 300px;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   
+}
+.di5{
+    display: none;
+}
+.di6{
+    display: none;
+    width: 0%;
+}
+.di7{
+    display: none;
+    width: 15%;
+}
+.di8{
+    display: none;
+    width: 0%;
+}
+.di9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.di5 h3{
+    width: 100%;
+}
+.di6 ul{
+    
+    list-style: none;
+    
+}
+.di7 ul{
+    
+    list-style: none;
+    
+}
+.di8 ul{
+    
+    list-style: none;
+    
+}
+.di9 ul{
+    
+    list-style: none;
+    
+}
+.di5 ul li{
+    width: 200px;
+}
+
+.di5 ul{
+    list-style: none;
+}
+.di8 ul li a img{
+    width: 150px;
+    height: 40px;
+}
+.di5 ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.di5 ul li a:hover{
+    color:#009657 ;
+}
+.di6 ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.di6 ul li a:hover{
+    color:#009657 ;
+}
+.di7 ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.di7 ul li a:hover{
+    color:#009657 ;
+}
+.di8 ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.di8 ul li a:hover{
+    color:#009657 ;
+}
+
+
+.di10{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+
+}
+
+.di9 .di11 button{
+    font-family: "Yekan Bakh";
+    font-size: large;
+    vertical-align: middle;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #009657;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.di11{
+    display: flex;
+    justify-content: center;
+}
+.di12 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.di12 button{
+    font-family: "Yekan Bakh";
+    cursor: pointer;
+    font-size: large;
+    vertical-align: middle;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.di13{
+    display: flex;
+    justify-content: center;
+}
+
+.di13 button{
+    font-family: "Yekan Bakh";
+    cursor: pointer;
+    font-size: large;
+    vertical-align: middle;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    border: solid 1px #009657;
+    margin-top: 10px;
+
+}
+.di14{
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+.di14 a{
+    margin-top: 20px;
+    margin-right: 40px;
+    color: black;
+}
+.di14 a:hover{
+    color: #009657;
+}
+.di14 a i{
+    font-size: large;
+}
+.lower-side{
+width: 100%;
+height: 300px;
+}
+.lower-side{
+    font-family: "Yekan Bakh";
+    padding: 30px;
+}
+.lower-side h3{
+    font-size: large;
+}
+.lower-side h2{
+    font-size: 40px;
+}
+.lower-side a{
+    color: #009657;
+    text-decoration: none;
+}
+.shoot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.shoot a img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+.pool{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #FBFBFB;
+}
+.pool p{
+    font-family: "Yekan Bakh";
+
+}
+.footer-menu{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    z-index: 2000;
+}
+.flee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flee span{
+    font-family: "Yekan Bakh";
+    font-size: small;
+}
+.flee:hover>span{
+    color: #009657;
+}
+.flee:hover>a svg{
+    stroke: #009657 !important;
+}

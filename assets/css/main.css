@@ -1,0 +1,9 @@
+@import url(./desktop/desktop.css) only screen and (min-width: 1200px);
+@import url(./tablet/tablet.css) only screen and (max-width: 1200px) and (min-width:992px);
+@import url(./tablet2/tablet2.css) only screen and (max-width: 992px) and (min-width:768px);
+@import url(./mobile2/mobile2.css) only screen and (max-width: 768px) and (min-width: 576px);
+@import url(./mobile/mobile.css) only screen and (min-width: 336px) and (max-width: 576px);
+@import url(./xsmall/xsmall.css) only screen and (max-width: 336px);
+@import url(./setting.css);
+@import url(./boostrap-icons.css);
+@import url(./yekan-bakh.css);

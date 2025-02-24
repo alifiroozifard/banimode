@@ -1,0 +1,233 @@
+@keyframes myAnim1 {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	40% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	50% {
+		transform: scale3d(0.85, 1.15, 1);
+	}
+
+	65% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	75% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+.daste-bandi:hover>div.mega-menu{
+    display: block;
+}
+.daste-bandi{
+ position: relative;
+}
+.brands{
+    position: relative;
+    border-right: 0.5px solid #42D57B;
+    padding-right: 30px;
+}
+
+.brands:hover .m2 {
+ display: block;
+}
+.mega-menu{
+    display: flex;
+    flex-flow: column;
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    z-index: 1000;
+    width: 200px;
+    height: 70vh;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #fff;
+    top: 100%;
+    right: 0px;
+}
+.daste-bandi:hover>div.mega-menu{
+    display: block;
+}
+
+ul.child-menu{
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    background-color: #fff;
+    z-index: 900;
+    top: 0;
+    right: 100%;
+}
+.mega-menu>ul{
+    width: 200px;
+    height: 70vh;
+    display: flex;
+    flex-flow: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    direction: ltr;
+    border-left: 0.8px solid rgb(255, 255, 255);
+}
+.mega-menu>ul::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgb(184, 184, 184);
+    
+}
+.mega-menu>ul::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color:#42D57B;
+    border-radius: 12px;
+}
+.mega-menu>ul>li{
+    width: 100%;
+    direction: rtl;
+    height: 70px;
+    padding: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.mega-menu>ul>:nth-child(1):hover .shirt-icon{
+    animation: myAnim1 2s ease-in-out 0s 1 normal forwards;
+}
+.mega-menu>ul>:nth-child(2):hover .heart-icon{
+    animation: myAnim1 2s ease-in-out 0s 1 normal forwards;
+}
+.mega-menu>ul>:nth-child(3):hover .ring-icon{
+    animation: myAnim1 2s ease-in-out 0s 1 normal forwards;
+}
+
+.daste-bandi>.mega-menu>ul>:nth-child(odd):hover .child-menu{
+    display: block;
+}
+.daste-bandi>.mega-menu>ul>:nth-child(even):hover .child-menu{
+    display: block ;
+}
+
+.m2:hover .ch2{
+   display: block;
+}
+.child-menu{
+    display: none;
+    direction: ltr;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 8px;
+}
+.child-menu::-webkit-scrollbar{
+    border-radius: 2px;
+    width: 5px;
+    background-color: rgb(184, 184, 184);
+    
+}
+.child-menu::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color:#42D57B;
+    border-radius: 12px;
+}
+.child-menu>li{
+    direction: rtl;
+    text-align: right;
+}
+.child-menu>li>h3{
+    margin: 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+.child-menu>li>h3:hover{
+    color: #42D57B;
+}
+.child-menu>li>svg:hover{
+    fill: #42D57B;
+}
+
+.child-menu-content{
+    text-align: right;
+    width: 24%;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.child-menu>li.child-menu-content>p{
+    font-size: 14px;
+    margin-top: 5px;
+    padding-right: 11px;
+    font-weight: 600;
+    color: #555;
+    
+}
+.child-menu>li.child-menu-content>p:hover{
+    color: #42D57B;
+
+}
+.child-menu>li.child-menu-content>h2{
+    font-size: 14px;
+    color: #333;
+}
+.child-menu>li.child-menu-content>h2>span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #42D57B;
+    margin-left: 5px;
+}
+.child-menu>li.child-menu-content>h2>svg{
+    vertical-align: middle;
+}
+.child-menu>li>h3>svg{
+    vertical-align: middle;
+}
+.mega-menu>ul>li>p{
+    text-align: right;
+    font-size: 13px;
+    color: #555 !important;
+}
+.mega-menu>ul>li>p>svg{
+    vertical-align: middle;
+    margin-left: 7px;
+}
+.mega-menu>ul>li:hover{
+    background-color: #d2d2d2;
+}
+.mega-menu>ul>li:hover>.f-list p{
+    color: #42D57B;
+    
+}
+.mega-menu>ul>li:hover>.f-list svg{
+stroke: #42D57B;
+}
+.f-list{
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+}
+.f-list p{
+    font-family: "Yekan Bakh";
+    color: black;
+
+}
+.f-list svg{
+    margin-left: 20px;
+}
+.f-list svg>hover{
+    stroke: #42D57B;
+    fill: #42D57B !important;
+}
+.f-list span {
+    color: #42D57B;
+    margin-left: 10px;
+}
+.ch2{
+    width: 30vw !important;
+    background-color: rgb(237, 235, 235) !important;
+}
