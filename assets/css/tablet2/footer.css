@@ -263,3 +263,6 @@ height: 300px;
 .flee:hover>a svg{
     stroke: #009657 !important;
 }
+.flee:hover>a svg path{
+    stroke: #009657 !important;
+}

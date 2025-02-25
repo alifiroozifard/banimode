@@ -225,9 +225,10 @@ height: 300px;
 .footer-menu{
     position: fixed;
     left: 0;
+    padding-top: 5px;
     bottom: 0;
     width: 100%;
-    height: 45px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     background-color: #ffffff;
@@ -246,5 +247,8 @@ height: 300px;
     color: #009657;
 }
 .flee:hover>a svg{
+    stroke: #009657 !important;
+}
+.flee:hover>a svg path{
     stroke: #009657 !important;
 }

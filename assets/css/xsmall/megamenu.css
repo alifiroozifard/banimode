@@ -107,7 +107,10 @@ ul.child-menu{
     animation: myAnim1 2s ease-in-out 0s 1 normal forwards;
 }
 
-.daste-bandi>.mega-menu>ul>:nth-child(odd):hover .child-menu{
+.moonlight{
+    display: none;
+}
+.daste-bandi:hover .moonlight{
     display: block;
 }
 .daste-bandi>.mega-menu>ul>:nth-child(even):hover .child-menu{

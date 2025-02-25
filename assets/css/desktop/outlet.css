@@ -26,7 +26,7 @@
 }
 .toggles{
     padding: 30px;
-    width: 20%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,6 +35,7 @@
 .toggles a{
     text-decoration: none;
     font-family: "Yekan Bakh";
+    color: black;
 }
 .ywrapper{
     width: 100%;
@@ -80,14 +81,17 @@ z-index: 100;
     content: "تخفیف بیشتر در گردونه آف زمستون";
    
     font-family: "Yekan Bakh";
-    font-size: small;
+    width: 85%;
+    text-align: center;
+    font-size: 14px;
     color: white;
     border-radius: 8px 8px 8px 8px;
     background-color: #42D57B;
     padding: 10px;
     position: absolute;
     bottom: 80px;
-    left: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     z-index: 100;
     
 }
@@ -108,6 +112,9 @@ z-index: 100;
     height: 40%;
     opacity: 1;
     bottom: 50px;
+}
+.ycards span{
+    font-size: small;
 }
 .child-popper{
     width: 100%;

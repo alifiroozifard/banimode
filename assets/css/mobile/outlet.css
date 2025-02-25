@@ -84,14 +84,17 @@ z-index: 100;
     content: "تخفیف بیشتر در گردونه آف زمستون";
    
     font-family: "Yekan Bakh";
-    font-size: large;
+    font-size: normal;
+    width: 90%;
+    text-align: center;
     color: white;
     border-radius: 8px 8px 8px 8px;
     background-color: #42D57B;
     padding: 10px;
     position: absolute;
-    bottom: 80px;
-    left: 25%;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     z-index: 100;
     
 }

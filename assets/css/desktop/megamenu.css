@@ -68,6 +68,14 @@ ul.child-menu{
     z-index: 900;
     top: 0;
     right: 100%;
+    display: none;
+}
+.child-menu{
+    display: block;
+    direction: ltr;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 8px;
 }
 .mega-menu>ul{
     width: 200px;
@@ -113,17 +121,13 @@ ul.child-menu{
 .daste-bandi>.mega-menu>ul>:nth-child(even):hover .child-menu{
     display: block ;
 }
-
+.daste-bandi:hover .moon{
+    display: block;
+}
 .m2:hover .ch2{
    display: block;
 }
-.child-menu{
-    display: none;
-    direction: ltr;
-    overflow-y: scroll;
-    padding: 10px;
-    border-radius: 8px;
-}
+
 .child-menu::-webkit-scrollbar{
     border-radius: 2px;
     width: 5px;

@@ -225,6 +225,7 @@ height: 300px;
 }
 .footer-menu{
     position: fixed;
+    padding-top: 5px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -248,6 +249,4 @@ height: 300px;
 }
 .flee:hover>a svg path{
     stroke: #009657 !important;
-    
-    
 }

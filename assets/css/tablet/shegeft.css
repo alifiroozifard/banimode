@@ -41,7 +41,8 @@
         padding: 10px;
         position: absolute;
         bottom: 75px;
-        left: 28%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         z-index: 100;
         
         }

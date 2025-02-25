@@ -231,3 +231,6 @@ stroke: #42D57B;
     width: 30vw !important;
     background-color: rgb(237, 235, 235) !important;
 }
+.daste-bandi:hover .moon{
+    display: block;
+}

@@ -154,7 +154,7 @@ ul.child-menu{
 
 .child-menu-content{
     text-align: right;
-    width: 24%;
+    width: 20%;
     height: 50px;
     display: inline-block;
     vertical-align: top;
@@ -230,4 +230,7 @@ stroke: #42D57B;
 .ch2{
     width: 30vw !important;
     background-color: rgb(237, 235, 235) !important;
+}
+.daste-bandi:hover .moon{
+    display: block;
 }
